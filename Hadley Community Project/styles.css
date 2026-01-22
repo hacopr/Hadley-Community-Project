@@ -1,0 +1,107 @@
+body {
+    overflow: hidden;
+}
+
+#sidenav {
+    height: 100%;
+    width: 640px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -640px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-image: url(sidenav/HCP_Menu.png);
+    background-position: right;
+}
+
+iframe {
+    width: 640px;
+    height:100%;
+    border:none;
+    overflow:hidden;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.board {
+    height: 100%;
+    width: 100%;
+    left:0;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-image: url(sidenav/HCP_Bulletin.png);
+    background-position: left;
+}
+
+.fliers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 48% 48%;
+    gap:1%;
+    position: absolute;
+    width:84%;
+    height:96%;
+    left:14%;
+    top:1%;
+}
+
+.fliers>a>img {
+    height:100%;
+}
+.fliers>a>img:hover {
+    transform:rotate(1deg);
+}
+
+.flier {
+    position:fixed;
+    height:50%;
+}
+
+#arrowCalendar {
+    position: absolute;
+    top: 9px;
+    left: 23px;
+    width:10%;
+}
+#arrowCalendar>img {
+    width:100%;
+}
+
+#arrowOrganizations {
+    position: absolute;
+    top: 20%;
+    left: 23px;
+    width:10%;
+}
+#arrowOrganizations>img {
+    width:100%;
+}
+
+#arrowResources {
+    position: absolute;
+    top: 40%;
+    left: 23px;
+    width:10%;
+}
+#arrowResources>img {
+    width:100%;
+}
+
+#arrowAbout {
+    position: absolute;
+    top: 60%;
+    left: 23px;
+    width:10%;
+}
+#arrowAbout>img {
+    width:100%;
+}
