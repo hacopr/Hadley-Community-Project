@@ -13,7 +13,7 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    background-image: url(sidenav/HCP_Menu.png);
+    background-image: url(Sidenav/HCP_Menu.png);
     background-position: right;
 }
 
@@ -38,7 +38,7 @@ iframe {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    background-image: url(sidenav/HCP_Bulletin.png);
+    background-image: url(Sidenav/HCP_Bulletin.png);
     background-position: left;
 }
 
